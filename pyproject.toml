@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hw2"
+version = "0.1.1"
+description = "homework for module 2"
+authors = ["Andrei Eremenko <aeremenko2022@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+bot = "hw2.bot:run"
